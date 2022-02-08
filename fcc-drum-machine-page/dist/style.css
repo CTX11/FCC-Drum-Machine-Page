@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Squada+One&display=swap");
+body {
+  background-color: #045f5f;
+  font-family: "Squada One", cursive;
+  min-height: 100vh;
+}
+
+#drum-pads {
+  height: 50vh;
+  width: 100vw;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.drum-pad {
+  height: 120px;
+  width: 200px;
+  border-radius: 4px;
+  border: 2px solid white;
+  margin: 10px;
+  font-size: 45px;
+  background-color: #3bb9ff;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #3b2f2f;
+}
+
+#display {
+  display: flex;
+  font-size: 75px;
+  border-radius: 4px;
+  justify-content: center;
+  color: white;
+  flex-wrap: wrap;
+}
+
+* {
+  box-sizing: border-box;
+}
